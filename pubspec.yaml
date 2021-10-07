@@ -1,0 +1,29 @@
+name: ask_chad
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0-116.0.dev <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_neumorphic:
+    git:
+      url: "https://github.com/alionour/Flutter-Neumorphic"
+  http: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: any
+
+flutter_icons:
+  image_path: "assets/chad-logo.png"
+  adaptive_icon_background: "assets/chad-bg.png"
+  adaptive_icon_foreground: "assets/chad-fg.png"
+  android: true
